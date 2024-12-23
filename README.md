@@ -1,6 +1,6 @@
 # Loan Approval Prediction in Python
 
----
+
 ## 1. PROBLEM AND OBJECTIVE
 
 Whenever an individual/corporation applies for a loan from a bank, their credit history undergoes a rigorous credit-worthiness check to ensure that they are capable enough to pay off the loan.
