@@ -16,7 +16,7 @@ The OBJECTIVE is to build a data model using past data to predict the probabilit
 Alternatively one can also use a modeling technique which gives binary 
 output. Based on the data that is available during loan application, build a model to predict default in the future. This will help the company in deciding whether or not to pass the loan.
 
----
+
 ## 2. BUSINESS SENSE & DATA DESCRIPTION
 
 GIVEN DATA consist of:
@@ -47,7 +47,7 @@ The training data was used to build models/analytical solution with prediction o
 CREATE OUT-SAMPLE DATA FOR SUBMISSION FILE
 A submission file with ‘id’, ‘loan_amnt’, ‘default_ind’ was maintained through the data processing, so that in the final step the predicted response could be added and the file submitted.
 
----
+
 ## 3. EDA & VISUALIZATION
 
 Some of the questions we are trying to explore through EDA are:
@@ -56,7 +56,7 @@ What are the correlation between the variables?
 What are the characteristics of good and bad borrowers?
 Which factors influence the loan repayment and default rate?
 
----
+
 ## 4. DATA CLEANING & PREPROCESSING
 
 Some of the processes involved were:
@@ -67,7 +67,7 @@ Some of the processes involved were:
 - Removing columns with more than 1% of the rows containing nulls.
 - Removing rows with less than 1% of nulls in columns.
 
----
+
 ## 5. FEATURE ENGINEERING
 
 CREATE THREE NEW FEATURES : Monthly Income, EMI AND Total Balance.
@@ -124,7 +124,7 @@ After running all the 5 algos we get 5 array list of selected features:
 4. DT Set with 13 features
 5. ADA Set with 14 features
 
----
+
 ## 6. MODEL BUILDING, TESTING
 
 The chosen datasets passes through the list of algorithms and finally the results are collected in a table at the end. This can be compared and contrasted to get the best models.
@@ -147,14 +147,14 @@ Of the total defaulters of 252, the loan amount from [TRUE NEGATIVES = 218]
 predicted correctly by the final Logistic model is the monetary savings by the 
 company. The savings amount equals to : Rs. 3149675.00
 
----
+
 ## 7. FINAL RESULTS, RECOMMENDATIONS
 
 Based on ROC-AUC scores, Logistic Regression on DS_Ada dataset with 14 features, is the best model with ROC = 0.7591. 
 With additional parametric tuning using algorithms like GridSearchCV, more 
 robust results can be obtained.
 
----
+
 
 
 
